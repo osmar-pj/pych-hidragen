@@ -19,7 +19,7 @@ def login():
 
     try:
         # If you haven't a token, you should use our token generator
-        token = '4c84cc48c25c79e79c66d64fb200f03894895374455872AC49557BCE8E00F2FB1CE2CD43'
+        token = ''
         # https://goldenmcorp.com/resources/token-generator
         sdk.login(token)
         return sdk
