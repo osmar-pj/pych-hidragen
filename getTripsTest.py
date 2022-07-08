@@ -20,7 +20,7 @@ resources = getResources()
 
 def getTripsTest(unit):
     end = datetime.now()
-    start = datetime(2022, 6, 20)
+    start = datetime(2022, 6, 1)
     sdk = login()
     parameterSetLocale = {
         'tzOffset': -18000,
